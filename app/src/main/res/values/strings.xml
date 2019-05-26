@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login/Registration</string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="first_name">First Name:</string>
+    <string name="enter_your_last_name">Enter your last name</string>
+    <string name="email">Email:</string>
+    <string name="choose_your_password">Choose your password</string>
+    <string name="confirm">Confirm:</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="username">Username:</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="password">Password:</string>
+    <string name="enter_your_email_to_update">Enter your email to update</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="update_information">Update Information</string>
+    <string name="update">Update</string>
+
+
+</resources>

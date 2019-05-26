@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7CC3E"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegisterMain"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/register"
+            android:background="#ECB719"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/btnLoginMain"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="10dp"
+            android:background="#ECB719"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btnUpdateUser"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:layout_marginTop="10dp"
+            android:background="#ECB719"
+            android:textColor="#FFFF"
+            android:textSize="20sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editTextUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_email_to_update"/>
+
+    </LinearLayout>
+
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            ></FrameLayout>
+
+
+</LinearLayout>
