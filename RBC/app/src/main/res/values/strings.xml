@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RBC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_amount_to_add">Enter amount to add</string>
+    <string name="rbc_online_banking">RBC Online Banking</string>
+    <string name="enter_email_address_to_send_interac">Enter Email address to send interac</string>
+    <string name="enter_amount_to_transfer">Enter amount to transfer</string>
+    <string name="rbc_online_banking_interac_service">RBC Online Banking Interac Service</string>
+</resources>
